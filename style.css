@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: indianred;
+    color: #333;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    padding: 20px;
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.display input {
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    flex-grow: 1;
+    background: transparent;
+    cursor: pointer;
+    color: #333;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #f09a9a;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background: #333;
+}
+
+.copy-message {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.copy-message.show {
+    opacity: 1;
+}
+
+.copy-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    fill: #333;
+}
+
+.copy-icon:hover {
+    fill: indianred;
+}
+p{
+    opacity: 0.5;
+}
