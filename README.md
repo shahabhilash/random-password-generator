@@ -18,4 +18,5 @@ HTML5: For the basic structure of the web page.
 CSS3: For styling and a clean layout.
 
 JavaScript: For all the core logic, including password generation and randomization.
+
 <img width="1919" height="956" alt="Screenshot 2025-09-04 015506" src="https://github.com/user-attachments/assets/38e8cdb2-e198-4e90-adbf-c451c0545dfe" />
